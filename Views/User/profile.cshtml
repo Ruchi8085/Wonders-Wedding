@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "profile";
+    Layout = "~/Views/Shared/UserMaster.cshtml";
+}
+<br />
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-12">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 panel panel-body" style="border:2px outset teal" >
+            <form action="/User/Profile" method="post">
+                Name
+                <input type="text" name="txtname" autocomplete="off"class="form-control" />
+                Email Id
+                <input type="email" name="txtemail" autocomplete="off" readonly class="form-control" />
+                Mobile
+                <input type="number" name="txtmob" autocomplete="off" class="form-control" />
+                <br />
+                <input type="submit" value="Edit" class="form-control btn-info" />
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+

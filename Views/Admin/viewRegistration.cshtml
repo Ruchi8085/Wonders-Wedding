@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "viewRegistration";
+    Layout = "~/Views/Shared/AdminMaster.cshtml";
+}
+@using System.Data;
+@using System.Data.SqlClient;
+@using myproject.Models;
+<link href="~/Content/akash.css" rel="stylesheet" />
+<script src="~/Content/js/jquery-2.1.0.min.js"></script>
+<script src="~/Content/akash.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#example").DataTable();
+    })
+</script>
+<div class="col-sm-12 panel panel-body" style="background:whitesmoke;border:2px solid black">
+    <h2 style="color:maroon;text-align:center"><u><b>viewRegistration</b></u></h2><br /><br />
+    <table class="table" id="example" style="border:2px solid maroon;padding:9px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+
+                <th>Password</th>
+                <th>Picture</th>
+                <th>Country</th>
+                <th>Date</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                databasemManager db = new databasemManager();
+                string cmd = "select * from Table_registration";
+                DataTable dt = db.GetAllRecords(cmd);
+                if (dt.Rows.Count > 0)
+                {
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        <tr>
+                            <td>@dt.Rows[i]["name"]</td>
+                            <td>@dt.Rows[i]["email"]</td>
+                            <td>@dt.Rows[i]["password"]</td>
+                            <td><img src="../Content/Profile/@dt.Rows[i]["picture"]" style="height:50px;width:50px"></td>
+                            <td>@dt.Rows[i]["country"]</td>
+                            <td>@dt.Rows[i]["RDT"]</td>
+                            <td><span class="fa fa-trash"></span> </td>
+                            <td><span class="fa fa-edit"></span> </td>
+
+
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

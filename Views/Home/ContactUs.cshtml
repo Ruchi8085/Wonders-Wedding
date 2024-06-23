@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "ContactUs";
+    Layout = "~/Views/Shared/GeneralMaster.cshtml";
+}
+
+
+    <div class="col-sm-12" style="background:whitesmoke;margin-top:-20px">
+        <div class="col-sm-4"></div>  
+        <div class="col-sm-4 panel-body" style="height: 500px; border: 2px solid maroon">
+            <form action="/Home/ContactUs" method="post">
+              <h2 style="color:maroon;text-align:center"><u><b>ContactUs</b></u></h2><hr />
+                Enter Name
+                <input type="text" class="form-control" name="txtname" /><br />
+                Enter Email
+                <input type="email" class="form-control" name="txtemail" /><br />
+                Enter Mobile
+                <input type="text" class="form-control" name="txtmobile" /><br />
+                Enter Message
+                <textarea name=" txtmsg" class="form-control"></textarea>
+                <br /><br />
+                <input type="submit" class="form-control btn-success" value="Submit Now" />
+            </form>
+        </div>
+       
+        <div class="col-sm-4"></div>
+</div>
+

@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/GeneralMaster.cshtml";
+}
+
+<script src="~/Content/js/jquery-2.1.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var tbl = "";
+        var code = "";
+        $.ajax({
+            url:"https://restcountries.eu/rest/v2/all",
+            type:"Get",
+            data:"json",
+            success:function(data){
+                for (i=0;i<data.length;i++){
+                    tbl += "<option>" + data[i].name + "</option>";
+                    code += "<option>+" + data[i].callingCodes + "</option>";
+                }
+                $("#ddlcountry").append(tbl);
+                $("#ddlcode").append(code);
+            }
+        })
+    })
+                </script>
+
+                <div class="col-sm-12" style="background:whitesmoke;margin-top:-20px">
+    <div class="col-sm-2"></div>
+    <form action="/Home/Registration" method="post" enctype="multipart/form-data">
+        <div class="col-sm-8" style="height:550px;">
+            <table class="table table-responsive" style="border:2px solid black">
+                <tr>
+                    <h2 style="color:maroon;text-align:center"><u>Registration</u></h2>
+                    <td>Enter Name</td>
+                    <td><input type="text" class="form-control" name="txtname" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" class="form-control" name="txtid" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td><input type="password" class="form-control" name="txtpassword" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Mobile</td>
+                    <td><input type="number" class="form-control" name="txtmob" /></td>
+                </tr>
+
+                <tr>
+                    <td>Choose Country</td>
+                    <td><select class="form-control" id="ddlcountry" name="ddlcountry"></select></td>
+                </tr>
+                <tr>
+                    <td>
+                        Choose Picture
+                    </td>
+                    <td>
+                        <input type="file" class="form-control" name="fupic" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Enter Confirm Password
+                    </td>
+                    <td><input type="password" class="form-control" name="txtcpassword" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="margin-right:20px"><input type="submit" class="form-control btn-warning" value="Register Now" style="width:40%" /></td>
+                </tr>
+            </table>
+        </div>
+
+    </form>
+    <div class="col-sm-2"></div>
+</div>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Booking";
+    Layout = "~/Views/Shared/GeneralMaster.cshtml";
+}
+<div class="col-sm-12" style="background:whitesmoke;margin-top:-20px">
+    <h2 style="color:maroon;text-align:center;font-family:Algerian"><u>BOOKING</u></h2>
+</div>
+<div class=" col-sm-12" style="background:whitesmoke">
+    <form action="/Home/ContactUs" method="post" style="border:2px solid black">
+    <div class="col-sm-3"></div>
+        <div class="col-sm-6 panel-body" style="height:500px;width:600px">
+            Enter Name
+            <input type="text" class="form-control" name="txtname" /><br />
+            Enter Mobile
+            <input type="number" class="form-control" name="txtmob" /><br />
+            Enter Date of event
+            <input type="date" class="form-control" name="txtdate" /><br />
+            Enter Amount
+            <input type="number" class="form-control" name="txtnumber" /><br />
+            Enter Address
+            <input type="text" class="form-control" name="txtname" /><br />
+            <input type="submit" class="form-control btn-warning" value="submit" /><br />
+        </div>
+        <div class="col-sm-3"></div>
+    </form>
+</div>
+

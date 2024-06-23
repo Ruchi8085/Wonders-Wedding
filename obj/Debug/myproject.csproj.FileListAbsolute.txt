@@ -1,0 +1,45 @@
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\myproject.dll.config
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\myproject.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\myproject.pdb
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\Antlr3.Runtime.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\EntityFramework.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\Newtonsoft.Json.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Mvc.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Optimization.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Providers.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Razor.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.Deployment.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.Razor.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\WebGrease.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\EntityFramework.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\Newtonsoft.Json.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Mvc.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.Razor.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.Deployment.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\bin\System.Web.WebPages.Razor.xml
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\obj\Debug\myproject.dll
+c:\users\dell pc\documents\visual studio 2013\Projects\myproject\myproject\obj\Debug\myproject.pdb
+C:\Users\DELL PC\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\myproject.csprojResolveAssemblyReference.cache
+C:\myproject\bin\myproject.dll.config
+C:\myproject\bin\myproject.dll
+C:\myproject\bin\myproject.pdb
+C:\myproject\bin\Microsoft.Web.Infrastructure.dll
+C:\myproject\bin\Newtonsoft.Json.dll
+C:\myproject\bin\System.Web.Razor.dll
+C:\myproject\bin\System.Web.WebPages.Deployment.dll
+C:\myproject\bin\System.Web.WebPages.dll
+C:\myproject\bin\System.Web.WebPages.Razor.dll
+C:\myproject\bin\EntityFramework.xml
+C:\myproject\bin\Microsoft.Web.Infrastructure.xml
+C:\myproject\bin\System.Web.Mvc.xml
+C:\myproject\bin\System.Web.Razor.xml
+C:\myproject\bin\System.Web.WebPages.xml
+C:\myproject\bin\System.Web.WebPages.Deployment.xml
+C:\myproject\bin\System.Web.WebPages.Razor.xml
+C:\myproject\obj\Debug\myproject.csprojResolveAssemblyReference.cache
+C:\myproject\obj\Debug\myproject.dll
+C:\myproject\obj\Debug\myproject.pdb

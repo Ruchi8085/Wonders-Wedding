@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/js/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/js/css/hover.css" rel="stylesheet" />
+    <script src="~/Content/js/jquery.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12" style="background-color:orangered;padding:1px;">
+                Welcome in AdminZone
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="background-color:black;color:white;padding:1%;padding-left:2%">
+                    <a href="/Admin/Index" style="text-decoration:none;color:white">Dashboard</a>
+                    <a href="/Admin/ViewEnquiry" style="text-decoration:none;color:white">ViewEnquiry</a>
+                    <a href="/Admin/ChangePassword" style="text-decoration:none;color:white">ChangePassword</a>
+                    <a href="/Admin/ViewRegistration" style="text-decoration:none;color:white">ViewRegistration</a>
+                    <a href="/Admin/Logout" style="text-decoration:none;color:white">Logou</a>
+                    </div>
+                </div>
+            <div class="row" style="min-height:300px"></div>
+                </div>
+            </div>
+            <div>
+                @RenderBody()
+            </div>
+</body>
+</html>

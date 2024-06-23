@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/css/hover.css" rel="stylesheet" />
+    <script src="~/Content/js/jquery-2.1.0.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+<style>
+    #nv1 {
+        color:white;
+      }
+    #nv1:hover{
+        color:black;
+        background-color:white;
+
+    }
+</style>
+ 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+<div class="col-sm-4">
+ <img src="~/Content/image/titlefinal.PNG" class="image-responsive" style="height:80px"/>
+  </div>
+                  
+           
+       
+    <div class="col-sm-8">
+        <nav class="navbar-inverse" style="background:#198732;border-radius:0px">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" style="background-color:transparent">
+                    <ul class="nav navbar-nav">
+
+                        <li style="color:white"><a href="/Home" id="nv1"><span class="fa fa-home"></span>Home</a></li>
+                        <li style="color:white"><a href="/Home/AboutUs" id="nv1">AboutUs</a></li>
+                        <li  style="color:white"><a href="/Home/Registration" id="nv1">Registration</a></li>
+                        <li style="color:white"><a href="/Home/Booking" id="nv1">Booking</a></li>
+                        <li style="color:white"><a href="/Home/Booking" id="nv1">Carrier</a></li>
+                        <li  style="color:white"><a href="/Home/ContactUs" id="nv1">ContactUs</a></li>
+                        <li style="color:white"><a href="/Home/Login" id="nv1"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                   
+                   
+                </div>
+            </div>
+        </nav>
+    </div>
+                </div>
+   </div>
+    <div class="row" style="min-height:300px">
+        @RenderBody()
+        </div>
+        
+            <div class="row panel panel-body">
+                <h3 style="color:maroon;text-align:center">OUR SERVICES</h3>
+                <div class="col-sm-12 panel panel-body" style="border-color:maroon;">
+                    <div class="col-sm-3">
+
+                        <img src="~/Content/image%20-%20Copy/marriagehall.jpg" style="height:300px;width:300px;" class="img img-thumbnail" />
+                        <h3 style="color:maroon"> Marriage Hall</h3>
+                        <p style="color:white;font-family:'Arial Rounded MT'">
+                            We provides Marriage Hall , Lawn,
+                            banquet Hall , across India
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="~/Content/image%20-%20Copy/catering.jpg" style="height:300px;width:300px; " class="img img-thumbnail" />
+                        <h3 style="color:maroon"> Catering Services</h3>
+                        <p style="color:white">Indian food, Continental, Mughlai, South Indian, Chinese and more</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="~/Content/image%20-%20Copy/decoration.jpg" style="height:300px;width:300px;" class="img img-thumbnail" />
+                        <h3 style="color:maroon;">Decoration</h3>
+                        <p style="color:white"> Lighting , Stage, Mandap, Drapes, Drops, Floral decore and more.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="~/Content/image%20-%20Copy/photography.jpg" style="height:300px;width:300px; " class="img img-thumbnail"><h2 style="color:maroon">Photography</h2>
+                        <p style="color:white">VR Photography, Pre-Wedding,Wedding Photography, Post Wedding Shoot
+                    </div>
+                </div>
+            </div>
+ 
+      
+
+    <div class="row">
+        <div class="col-sm-12" >
+<div class=" col-sm-4">
+    <img src="~/Content/image/people-icons.png" class="img img-thumbnail" />
+            <p>Millions of people register on Shadi.com looking for someone special. This site is for serious singles looking for a long lasting relationship.</p>
+        </div>
+            <div class="col-sm-4">
+                <img src="~/Content/image/education-icon2.png" class="img img-thumbnail" />
+                <p>
+                    80% of our members
+                    are highly educated. Most of them are
+                    successful professionals in their selected fields.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="~/Content/image/technology-icon.png" class="img img-thumbnail"  />
+                <p>Shadi.com uses a smart matchmaking system. We present you matches based on current location, education level & lifestyle choices.</p>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class=" col-sm-6">
+                    <h3 style="color:black">Browse Matrimonial Profiles</h3>
+                </div>
+                    <div class="col-sm-6">
+                        <h3>25 years old single woman just registered from Maharashtra</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class=" col-sm-3" style="height:100px;width:300px">
+                    <h1 style="color:maroon"><b>RELIGION</b></h1>
+                    Hindu | Muslim | Christian | Sikh | Budhist | Jain
+                    <input type="button" class="form-control" value="READ MORE" style="height:30px;width:120px;background-color:aqua;color:white;border-color:black" />
+                </div>
+                    <div class="col-sm-3">
+                        <h1 style="color:maroon"><b>CASTE</b></h1>
+                        Agarwal | Arora | Brahmin | Gupta | Khatri | Iyer | Kayastha | Maratha | Rajput | Sunni | Swetambar
+                        <input type="button" class="form-control" value="READ MORE" style="height:30px;width:120px;background-color:aqua;color:white;border-color:black" />
+
+                    </div>
+                    <div class="col-sm-3">
+                        <h1 style="color:maroon"><b>STATES</b></h1>
+                        California | New York | Texas | New Jersey | Virginia | Illinois | Florida | Pennsylvania | Michigan | Geor
+                        <input type="button" class="form-control" value="READ MORE" style="height:30px;width:120px;background-color:aqua;color:white;border-color:black" />
+                    </div>
+                    <div class="col-sm-3">
+                        <h1 style="color:maroon"><b>  INTERNATIONAL</b></h1>
+                        INTERNATIONAL
+                        United States | Canada | United Kingdom | Australia | India | UAE Pakistan | Switzerland | France | Netherland | Singapore
+                        <input type="button" class="form-control" value="READ MORE" style="height:30px;width:120px;background-color:aqua;color:white;border-color:black" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="border:2px solid black">
+                    <div class=" col-sm-4">
+                    <h3>Relationship Advise</h3>
+                        <img src="~/Content/image/life.jpg" style="height:200px;width:400px" class="img img-thumbnail" />
+                </div>
+                    <div class="col-sm-4">
+                        <h3>Find Someone Special In Your City</h3>
+                        <img src="~/Content/image/san.jpg" style="height:200px;width:400px" class="img img-thumbnail" />
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Marriage ties two families in a bond of lifetime relationship!</h3>
+                        <img src="~/Content/image/parent-family.jpg" style="height:200px;width:400px" class="img img-thumbnail"  />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class=" col-sm-3"></div>
+                    <div class="col-sm-6"><h3 style="color:maroon"><b>Meet Our Members - Successful Professional Singles</b></h3></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class=" col-sm-6">
+                    <img src="~/Content/image/people-icons.png" />
+                    <h5 style="color:maroon">
+                       <p style="font-size:20px"> We have members from all religions and ages. Our most popular age group is from 27 - 60. Almost all our singles are successful professionals and businessmen. Creating a great profile is essential in online matchmaking and adding your best photo to your profile. We offer abundant tips and relationship advice through our blogs. It is our passion to help you in the best possible way.</p>
+                    </h5>
+                </div>
+                    <div class="col-sm-6">
+                        <img src="~/Content/image/lock.png" />
+                        <h5 style="color:maroon">
+                            <p style="font-size:larger">Shadi.com is an international matchmaking platform. Through which people can find love and long lasting relationships. Our profiles are verified with cell phone and email verification. We make use of the latest technology for fraud detention and SSL encryption. Non-active users are removed from our network. We are committed to providing a safe web service for like-minded singles in your region.</p>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               
+                <div class="col-sm-12">
+                    <h2 style=" color:maroon">
+                    Shadi.com Best Online Matrimony Site</h2>
+                    <img src="~/Content/image/n.png" style="height:20px;width:40px"/><p style="height:200px;width:1500px;font-size:20px">We have been making memorable memories through matchmaking for more than 20 years. It all began with creating many successful marriages for family and friends in upstate New York. To take the essence of matchmaking to the next level Shadi.com was created. Most important component of our network is that users find their match through our platform. We are proud to mention that millions of users have been impacted with our online marriage portal with happy endings. Our commitment lies in helping members meet someone special for long lasting relationship. Today, Shadi.com is known worldwide as one of the top introductions and matrimonial services provider. We are happy to welcome you to our matchmaking network and wish you success every step of the way.</p>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class=" col-sm-4">
+                    <h4 style="color:maroon"><u>ABOUT SHADI®</u></h4>
+                    <p style="font-size:20px">Shadi®.com is a registered and trademarked corporation based in the USA. We are a leading international matchmaking company for singles globally. Through our network we want to make the process of relationship journey relatively effortless. All profiles are checked manually with phone verification to ensure a safe environment for the users.</p>
+                </div>
+                    <div class="col-sm-2">
+                        <h4 style="color:maroon"><u>NEED HELP?</u></h4>
+                       <p style="font-size:20px"> Member Login</p>
+                        <p style="font-size:20px">Shadi® 101</p>
+                        <p style="font-size:20px"> Sign Up</p>
+                        <p style="font-size:20px">Customer Support</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4 style="color:maroon"><u>COMPANY</u></h4>
+                      <p  style="font-size:20px">About Us</p>
+                       <p style="font-size:20px" >Blog</p>
+                       <p style="font-size:20px"> Helpful Tips</p>
+                       <p style="font-size:20px"> Submit story</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4 style="color:maroon"><u>PRIVACY & YOU</u></h4>
+                        <p style="font-size:20px">Terms of Use</p>
+                        <p style="font-size:20px">Privacy Policy</p>
+                        <p style="font-size:20px">Contact Us</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <h4 style="color:maroon"><u>MORE</u></h4>
+                        <p style="font-size:20px"> Parent Involved</p>
+                       <p  style="font-size:20px">Intimate Cozy Wedding</p>
+                       <p style="font-size:20px">Site Map</p>
+                    </div>
+
+                </div>
+            </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class=" col-sm-2"></div>
+            <div class="col-sm-4">
+                <video width="500" height="400" controls>
+  <source src="~/Content/fonts/vedio/Main%20Jo%20Kabhi%20Wedding%20Couple%20HD-(MirchiStatus.com).mp4" type="video/mp4"  style="width:500px"/>
+                    </video>
+                   </div>
+            
+            <div class="col-sm-4">
+                <h1>Wedding Photoshoot</h1>
+                <p style="font-size:20px">Shadi events is a team of highly skilled, experienced and professional wedding photographers and cinematographers. We specialize in destination wedding photography, cinematography and wedding shoots. With an experience of almost a decade and numerous weddings in most reputed destinations of India and projects with recognised brands. We promise you that your wedding memories are something that you will cherish for ages and our captured photographs are reminders of love, family and countless timeless moments.</p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class=" col-sm-2"></div>
+                <div class="col-sm-4">
+                  <h1>Mahndi event</h1>
+                    <p style="font-size:20px">
+                        Mehndi hai rachne wali, haathon par gehri laali...
+
+                        Kahe sakhiyan, ab kaliyan, haathon par khilne wali hai'
+
+                        There is no better way to elaborate the significance of these delicate henna designs which blossom on the palms and feet of a bride-to-be. A traditional aspect of the ancient Solah Shringaar, the Mehndi is an inalienable part of an Indian bride's wedding look. And so's the ritual around it. We pay homage here to the Mehndi ceremony, explaining what it's all about and how you would find it in every cultural sub-set in India.
+                    </p>
+                </div>
+              
+            <div class="col-sm-4">
+
+                <video width="500" height="400" controls>
+                        <source src="~/Content/fonts/vedio/bole-chudi-wedding-song-video-song-status.mp4" type="video/mp4" />
+                    </video>
+            </div>
+            <div class="col-sm-2"></div>
+                </div>
+            </div>
+    </div>
+
+
+            <div class="row">
+                <div class="col-sm-12" style="min-height:250px;background-color:maroon;width:100%">
+                    <div class="col-sm-2">
+                        <h3 style="color:white;align-content:center;">Follow us on:</h3>
+
+                        <i class="fa fa-facebook" style="color:white;font-size:30px;padding:9px"></i>
+                        <i class="fa fa-instagram" style="color: white; font-size: 30px;padding:9px"></i>
+                        <i class="fa fa-twitter" style="color:white;font-size:30px;padding:9px"></i>
+                    </div>
+                    <div class="col-sm-3" style="padding:8px">
+                        <h3 style="color:white;align-content:center;">Quick Link</h3>
+                        <a href="/Home/Booking" style="font-size:22px">Booking</a><br />
+                        <a href="/Home/ContactUs" style="font-size:22px">Contact Us</a><br />
+                        <a href="/Home/Registration" style="font-size:22px">Registration</a><br />
+                        <a href="/Home/Login" style="font-size:22px">Login</a><br />
+                        <a href="/Home/AboutUs" style="font-size:22px">About Us</a><br />
+
+                    </div>
+                    <div class="col-sm-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.276046631436!2d80.95136231488269!3d26.89473298313532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957162f9814a1%3A0xcf1a2d0fc9abd3c7!2sArcane%20programming%20infotech!5e0!3m2!1sen!2sin!4v1632738266395!5m2!1sen!2sin" width="100%" height="230" style="border:2px solid black;margin-top:10px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-sm-4" style="color:white;margin-top:50px">
+                        SHADI® is a registered trademark and should not be used without permission
+                        © Copyrights Shadi.com 1997 - 2021. All rights reserved.<br />
+                        <img align="right" src="~/Content/image/v5.png" /><br /><br /><br /><br /><br /><br />
+                        <span style="margin-left:300px">Designed By: Goldee Nayak</span><br />
+                        <span style="margin-left:300px">Contact No:7068049958</span>
+                    </div>
+                    
+                </div>
+            </div>
+      </div> 
+</body>
+</html>
